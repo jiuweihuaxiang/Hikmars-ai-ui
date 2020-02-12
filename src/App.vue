@@ -2,7 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <!-- <HelloWorld/> -->
-    <ai-button>jiangting-hikmars按钮</ai-button>
+    <ai-button>hikmars按钮</ai-button>
   </div>
 </template>
 
@@ -10,6 +10,7 @@
 // import HelloWorld from './components/HelloWorld'
 
 export default {
+
   name: 'App',
   components: {
     // HelloWorld
