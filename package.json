@@ -15,6 +15,7 @@
     "package": "npm run package:prod && npm publish && npm run build"
   },
   "dependencies": {
+    "video.js": "^7.6.6",
     "vue": "^2.5.2"
   },
   "devDependencies": {
