@@ -70,7 +70,7 @@ export default {
         emitPlayerState('ready')
       })
     },
-    getElement () {
+    getVideoElement () {
       return this.$refs.videoPlayer
     }
   },
