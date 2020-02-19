@@ -69,6 +69,9 @@ export default {
         // player ready
         emitPlayerState('ready')
       })
+    },
+    getElement () {
+      return this.$refs.videoPlayer
     }
   },
 
@@ -87,12 +90,19 @@ export default {
           this.initialize()
         })
       }
+    },
+    srcObject: {
+      deep: true,
+      handle (srcObject, oldSrcObject) {
+        this.$refs.videoPlayer.srcObject = srcObject
+      }
     }
   },
 
   mounted () {
     if (!this.player) {
       this.initialize()
+      this.$refs.videoPlayer.srcObject = this.srcObject
     }
   },
   beforeDestroy () {
@@ -111,7 +121,7 @@ export default {
 </script>
 
 <style>
-video:focus {
+video, a, p div, span, button:focus {
   outline: none;
 }
 </style>
