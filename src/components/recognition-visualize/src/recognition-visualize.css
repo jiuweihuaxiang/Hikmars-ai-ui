@@ -1,0 +1,48 @@
+/* 全局 */
+.hik-recvisual-face, .hik-recvisual-target, .hik-recvisual-general{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* 人脸目标模式 */
+.hik-recvisual-face-recImg{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.hik-recvisual-face-point-wrap{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.hik-recvisual-face-point{
+  border-radius: 3px;
+  border: 3px solid red;
+  position: absolute;
+}
+.hik-recvisual-thumbnail-list{
+  position: absolute;
+}
+.hik-recvisual-face-frame{
+  position: absolute;
+}
+.hik-recvisual-text-row{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hik-recvisual-text-row {
+  margin: 0!important;
+}
+.hik-recvisual-face-recImg{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.hik-recvisual-face-text-panel{
+  position: absolute;
+}
+/* 通用模式 */
+.hik-recvisual-general-img{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

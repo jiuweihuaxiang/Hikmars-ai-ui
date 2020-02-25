@@ -1,7 +1,10 @@
 import Button from './button'
 import './index.css'
+import RecognitonVisualize from './recognition-visualize'
+
 const components = {
-  Button
+  Button,
+  RecognitonVisualize
 }
 
 const install = function (Vue) {
@@ -17,5 +20,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  Button
+  Button,
+  RecognitonVisualize
 }
