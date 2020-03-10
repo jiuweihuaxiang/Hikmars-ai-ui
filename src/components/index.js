@@ -1,9 +1,11 @@
 import Button from './button'
 import RecognizeShow from './recognizeshow'
+import Hikleaflet from './hikleaflet'
 import './index.css'
 const components = {
   Button,
-  RecognizeShow
+  RecognizeShow,
+  Hikleaflet
 }
 
 const install = function (Vue) {
@@ -21,5 +23,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
   install,
   Button,
-  RecognizeShow
+  RecognizeShow,
+  Hikleaflet
 }

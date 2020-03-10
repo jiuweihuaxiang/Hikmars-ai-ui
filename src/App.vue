@@ -4,6 +4,7 @@
     <!-- <HelloWorld/> -->
     <ai-button>hikmars按钮</ai-button>
     <recognizeshow></recognizeshow>
+    <hikleaflet></hikleaflet>
   </div>
 </template>
 
