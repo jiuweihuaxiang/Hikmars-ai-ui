@@ -3,6 +3,7 @@
     <img src="./assets/logo.png">
     <!-- <HelloWorld/> -->
     <ai-button>hikmars按钮</ai-button>
+    <recognizeshow></recognizeshow>
   </div>
 </template>
 
