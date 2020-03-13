@@ -1,9 +1,12 @@
 import Button from './button'
 import RecognizeShow from './recognizeshow'
+import HikWebRtcVideo from './webrtc-video'
+
 import './index.css'
 const components = {
   Button,
-  RecognizeShow
+  RecognizeShow,
+  HikWebRtcVideo
 }
 
 const install = function (Vue) {
